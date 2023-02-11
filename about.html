@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Vinner Academy </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    </head>
+    <body>
+        <section class ="sub-header">
+            <nav>
+                <a href="index2.html"><img src="pics/V ACA.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index2.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="class.html">CLASSES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> About Us</h1>
+        </section>
+
+        <!----- about us content ----->
+        <section class="about us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are driven to provide high-quality lessons at low cost!</h1>
+                    <p>Greetings, My name is Ajitesh Sankaranarayanan. I am a 9th grade student who is very interested in and knowledgeable about Communications Technologies. I enjoy sports and am bilingual. I am the company's founder.
+                        Hello! My name is Sai Srivatsan. I am a ninth-grade student with an interest in Communications Technologies. I enjoy teaching new people because I learn as well as teach people about Communications Technologies!
+                        I am the company's Co-Founder, and I enjoy teaching others.
+                        Vinner Academy is a free programme that educates students on the importance of editing. Graphic design, film editing, and animations are all valuable skills to have in the future.We believe that editing is very important because it removes errors, improves your work flow, and improves your language and style. Overall Viner Academy is a 
+                        place where you will easily learn these topics within just a few weeks. This is our dream and were making it a reality!</p>
+                        <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="pics/about.png">
+                </div>
+            </div>
+
+        </section>
+      
+        <!-----footer----->
+
+        <section class="footer">
+            <h4> About us</h4>
+            <p>We provide the finest quality of service with patience and understanding.<br> We are always family friendly and very responsive to any emails or texts. Vinner Academy is a place where you always feel welcome</p>
+            <p>--------------------------------</p>
+            <p> Made by Ajitesh Sankaranarayanan</p>
+        </section>
+
+
+
+
+        <!------JavaScript for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+    </html>
+    

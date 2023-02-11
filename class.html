@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Vinner Academy </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    </head>
+    <body>
+        <section class ="sub-header">
+            <nav>
+                <a href="index2.html"><img src="pics/V ACA.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index2.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="class.html">CLASSES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> Our Classes</h1>
+        </section>
+        <!-----Classes----->
+        <section class="classes">
+            <h1> Classes We Offer </h1>
+            
+
+            
+            <div class="row">
+                <div class="classes-col">
+                    <h3> Graphic Design </h3>
+            <p> Graphic design is the process of communicating a message or telling a story by using visual elements . The goal of
+                graphic design is to make information understandable,and visually appealing, often to promote a product, service, or brand.
+                Graphic design is important in effective communication because it helps convey information in a visually appealing manner.
+                A strong graphic design can reinforce a company's image and make it more recognizable, which is important.</p>
+                </div>
+                
+                    <div class="classes-col">
+                        <h3> Animating </h3>
+                <p> The process of creating the illusion of motion and change by rapidly displaying a sequence of static
+                    images that differ only slightly from one another is known as animation. Hand-drawn animation, stop-motion
+                    animation, and computer-generated animation are all examples of how it can be created. Animation is an important
+                    communication and storytelling tool. Its ability to convey complex information and bring stories to life makes it
+                    useful in education, marketing, and entertainment.</p>
+                    </div>
+                    
+                    
+                        <div class="classes-col">
+                            <h3> Film Editing </h3>
+                    <p> Video editing is the process of manipulating and rearranging video shots to create a new work. It entails trimming
+                        and cutting footage, as well as adding special effects, audio, and music to create a polished finished product. Video editing
+                        will require a variety of software applications, such as Adobe Premiere Pro, and After effects. Because it is used to create
+                        high-quality video content, video editing is an important part of many industries. </p>
+                        </div>
+                        
+            </div>
+
+
+        </section>
+        <!-----resources----->
+        <section class="resources">
+            <h1> The Resources You NEED!</h1>
+            <div class="row">
+                <div class="resources-col">
+                    <img src="pics/comp.png">
+                    <div class="layer">
+                        <h3>COMPUTER</h3>
+                    </div>
+                </div>
+                <div class="resources-col">
+                    <img src="pics/microphone.png">
+                    <div class="layer">
+                        <h3>MICROPHONE</h3>
+                    </div>
+                </div>
+                <div class="resources-col">
+                    <img src="pics/Webcam.png">
+                    <div class="layer">
+                        <h3>WEBCAM</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+      
+        <!-----footer----->
+
+        <section class="footer">
+            <h4> About us</h4>
+            <p>We provide the finest quality of service with patience and understanding.<br> We are always family friendly and very responsive to any emails or texts. Vinner Academy is a place where you always feel welcome</p>
+            <p>--------------------------------</p>
+            <p> Made by Ajitesh Sankaranarayanan</p>
+        </section>
+
+
+
+
+        <!------JavaScript for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+    </html>
+    

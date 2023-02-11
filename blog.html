@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Vinner Academy </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    </head>
+    <body>
+        <section class ="sub-header">
+            <nav>
+                <a href="index2.html"><img src="pics/V ACA.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index2.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="class.html">CLASSES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> Our Certificate & Online Programs</h1>
+        </section>
+        
+        <!-----Blog----->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="pics/certificate.jpg">
+                    <h2>Our Certificate & Online Programs</h2>
+                    <p>Our Certificate & Online Programs are an excellent way to acquire the knowledge and skills you need to succeed in your career. Our classes are designed to help you gain the confidence and expertise needed to excel in the field of editing. We offer a variety of programs, from Graphic Design to longer-term online programs like Film Editing, so you can get the training that best suits your needs. With our Great  Online Programs, you can be sure that you will get the most up-to-date education available and develop the skills necessary for your success in today's competitive world.</p>
+                    <br>
+                    <p>Vinner Academy is a unique learning platform that provides an innovative approach to education. It offers a range of benefits for students, including access to personalized lessons, interactive activities, and self-paced courses. The Academy also provides a supportive environment for learners by offering one-on-one tutoring sessions and a team of knowledgeable mentors. With Vinner Academy, students can take advantage of the latest technology and gain the skills they need to succeed in their chosen field.</p>
+                    <br>
+                    <p>Graduating from Vinner Academy is a great way to start your career in the tech industry. With its comprehensive curriculum, Vinner Academy provides students with the skills and knowledge needed to succeed in the ever-changing world of technology.</p>
+                    <br>
+                    <p>At Vinner Academy, you will learn all the major steps for editing. You will also gain experience by participating in various projects and exercises. To graduate from Vinner Academy and earn the certificate, you must complete all required classes, pass all exams, and demonstrate mastery of the material through successful completion of a final project or thesis.</p>
+                    <br>
+                    <p>By graduating from Vinner Academy, you will have the opportunity to develop your skillset further as well as stand out from other applicants when applying for jobs in the tech/editing industry.</p>
+                    <div class="comment-box">
+
+                        <h3>Leave a Comment</h3>
+                        <form class="comment-form">
+                           <input type="text" placeholder="Enter Name">
+                           <input type="email" placeholder="Enter Email">
+                           <textarea rows="5" placeholder="Your Comment"></textarea>
+                           <button type="submit" class="hero-btn blue-btn">POST COMMENT</button>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="blog-right"></div>
+            </div>
+        </section>
+        
+        
+      
+        <!-----footer----->
+
+        <section class="footer">
+            <h4> About us</h4>
+            <p>We provide the finest quality of service with patience and understanding.<br> We are always family friendly and very responsive to any emails or texts. Vinner Academy is a place where you always feel welcome</p>
+            <p>--------------------------------</p>
+            <p> Made by Ajitesh Sankaranarayanan</p>
+        </section>
+
+
+        <!------JavaScript for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        
+    </body>
+    </html>
+    
